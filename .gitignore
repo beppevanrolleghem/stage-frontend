@@ -31,3 +31,4 @@ buildNumber.properties
 HELP.md
 mvnw.cmd
 src/.DS_Store
+target/
