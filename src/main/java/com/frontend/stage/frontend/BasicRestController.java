@@ -8,10 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class BasicRestController {
 
     @RequestMapping("/")
-    @RequestMapping("/stage-frontend")
     public String index() {
         return "it works!";
     }
+
+
+    @RequestMapping("/stage-frontend")
+    public String index2() { return "it do work"; }
 
 
 }
